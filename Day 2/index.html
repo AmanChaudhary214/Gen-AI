@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Converter App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Code Converter App</h1>
+
+        <div class="language">
+            <div class="language-select">
+                <label for="inputLanguage">Input Language:</label>
+                <select id="inputLanguage">
+                    <option value="java">Java</option>
+                    <option value="python">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="python">C++</option>
+                    <option value="python">C</option>
+                    <!-- Add more language options here -->
+                </select>
+            </div>
+    
+            <div class="language-select">
+                <label for="outputLanguage">Output Language:</label>
+                <select id="outputLanguage">
+                    <option value="java">Java</option>
+                    <option value="python">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="python">C++</option>
+                    <option value="python">C</option>
+                    <!-- Add more language options here -->
+                </select>
+            </div>
+        </div>
+
+        <!-- <div class="language-select">
+            <label for="inputLanguage">Input Language:</label>
+            <select id="inputLanguage">
+                <option value="java">Java</option>
+                <option value="python">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="python">C++</option>
+                <option value="python">C</option>
+            </select>
+        </div>
+
+        <div class="language-select">
+            <label for="outputLanguage">Output Language:</label>
+            <select id="outputLanguage">
+                <option value="java">Java</option>
+                <option value="python">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="python">C++</option>
+                <option value="python">C</option>
+            </select>
+        </div> -->
+
+        <div class="editor-container">
+            <div class="editor">
+                <h2>Input Code</h2>
+                <textarea id="inputCode" placeholder="Enter your input code here"></textarea>
+            </div>
+
+            <div class="editor">
+                <h2>Output Code</h2>
+                <pre id="outputCode"></pre>
+            </div>
+        </div>
+
+        <button id="convertBtn">Convert</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

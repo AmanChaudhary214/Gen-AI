@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: white
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cont {
+  width: 50%;
+  margin: 50px auto 50px;
+}
+
+.shayariContainer {
+  width: 95%;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #242424;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shayari-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  overflow: hidden;
+  height: 300px;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#loader {
+  display: none;
+}
